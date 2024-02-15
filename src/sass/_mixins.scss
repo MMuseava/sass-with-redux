@@ -1,0 +1,7 @@
+@mixin flexbox() {
+	display: flex;
+}
+
+@mixin mediaQuary($screen-size) {
+	// @media (min-width: none;);
+}

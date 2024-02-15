@@ -1,0 +1,36 @@
+nav {
+	background-color: #e5dddd91;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 15px;
+	display: flex;
+	justify-content: end;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+
+			a {
+				display: flex;
+				align-items: center;
+				color: #333; /* Adjust color as needed */
+				text-decoration: none;
+
+				svg {
+					width: 24px;
+					height: 24px;
+				}
+			}
+
+			p {
+				margin: 0;
+				font-size: 14px; /* Adjust font size as needed */
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+$mobile-screen: 550px;
+$desktop-scree: 800px;
+
+@mixin flexbox() {
+	display: flex;
+}

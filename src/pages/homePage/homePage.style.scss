@@ -1,0 +1,7 @@
+@use "../../sass/mixins" as *;
+.product-list {
+	@include flexbox();
+
+	flex-wrap: wrap;
+	gap: 10px;
+}

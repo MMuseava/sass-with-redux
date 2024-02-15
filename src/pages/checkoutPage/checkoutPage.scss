@@ -1,0 +1,58 @@
+.cart {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	&__btn {
+		margin-bottom: 20px;
+	}
+
+	&__main {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		gap: 20px;
+
+		&__img {
+			width: 200px;
+			margin-right: 20px;
+		}
+
+		&__name {
+			font-size: 16px;
+			margin-right: 10px;
+		}
+
+		&__btn {
+			background-color: #ccc;
+			border: none;
+			border-radius: 4px;
+			color: #fff;
+			cursor: pointer;
+			padding: 5px 10px;
+			margin-right: 5px;
+
+			&:hover {
+				background-color: #999;
+			}
+		}
+
+		&__price {
+			font-size: 16px;
+			font-weight: bold;
+			padding-left: 40px;
+		}
+	}
+
+	&__total {
+		display: flex;
+		flex-direction: column;
+
+		&__total-price,
+		&__tax,
+		&__total-grand {
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+	}
+}
